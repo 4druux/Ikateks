@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geometos";
+  src: url("/fonts/Geometos.ttf") format("truetype");
+  font-weight: 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.geometos {
+  font-family: "Geometos", sans-serif;
+}
+
+.roboto-light {
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.roboto-medium {
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}

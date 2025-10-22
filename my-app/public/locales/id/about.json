@@ -1,0 +1,52 @@
+{
+  "aboutPage": {
+    "hero": {
+      "title": "Tentang Kami",
+      "description": "ICP - Mendorong Keunggulan, Menaklukkan Tantangan, Menangkap Peluang. Kami berkomitmen untuk menjadi mitra tepercaya yang mendorong bisnis Anda ke tingkat yang lebih tinggi."
+    },
+    "aboutOne": {
+      "title": "PT. Ikateks Citra Persada",
+      "description": [
+        "Di Ikateks Citra Persada (ICP), kami berkomitmen untuk menjadi mitra tepercaya yang mendorong bisnis Anda ke tingkat yang lebih tinggi. Dengan tim yang solid dan keahlian mendalam, kami berspesialisasi dalam menawarkan solusi khusus yang disesuaikan untuk memenuhi kebutuhan dan tantangan unik setiap klien.",
+        "ICP melayani berbagai sektor, termasuk Rantai Pasok, Teknologi, Manufaktur, Layanan Kesehatan, Energi, Perbankan/Keuangan, Real Estat, Perjalanan & Pariwisata, dan Telekomunikasi, dan banyak lagi. Pendekatan kami bersifat holistik, memastikan kami menangani dimensi strategis dan operasional bisnis Anda untuk memaksimalkan potensi pertumbuhan dan efisiensi."
+      ],
+      "imageAlt": "kantor"
+    },
+    "aboutTwo": {
+      "title": "Mari Bentuk Hari Esok, Hari Ini.",
+      "description": [
+        "Di ICP, kami didorong oleh fokus tanpa henti untuk memberikan keunggulan dalam segala hal yang kami lakukan. Kami tidak hanya menyediakan solusi—kami adalah mitra strategis Anda dalam membentuk masa depan bisnis Anda. Dengan menangkap peluang, kami membantu Anda membuka nilai, mendorong transformasi, dan membimbing Anda menuju kesuksesan yang berkelanjutan.",
+        "Kami berdedikasi untuk mengubah tantangan menjadi peluang pertumbuhan, memanfaatkan pengetahuan industri yang mendalam dan metodologi mutakhir untuk memberikan wawasan praktis yang dapat ditindaklanjuti yang dirancang untuk menciptakan hasil yang nyata."
+      ],
+      "imageAlt": "kantor"
+    },
+    "expertiseList": {
+      "headline": "Keahlian",
+      "headline-span": "Kami",
+      "description": "Meru Solution adalah firma konsultan terkemuka yang berdedikasi untuk membantu bisnis berkembang di era digital."
+    },
+    "whyMeru": {
+      "headline": "Mengapa Memilih",
+      "headline-span": "ICP?",
+      "description": "Meru Solution adalah firma konsultan terkemuka yang berdedikasi untuk membantu bisnis berkembang di era digital.",
+      "items": {
+        "tailored": {
+          "title": "Layanan yang Disesuaikan",
+          "description": "Setiap bisnis itu unik. Solusi kami dirancang khusus untuk menjawab tantangan dan tujuan khas perusahaan Anda."
+        },
+        "expertise": {
+          "title": "Keahlian Industri",
+          "description": "Pengalaman beragam tim kami di berbagai sektor utama memastikan wawasan yang relevan dan dapat ditindaklanjuti yang selaras langsung dengan tujuan Anda."
+        },
+        "impact": {
+          "title": "Pengejaran Dampak Tanpa Henti",
+          "description": "Kami lebih dari sekadar memberikan kualitas—kami bertujuan untuk menciptakan nilai abadi, hasil terukur, dan dampak transformatif bagi setiap klien."
+        }
+      }
+    },
+    "tagline": {
+      "quote": "Driving Excellence, Conquering Challenges, Capturing Opportunity",
+      "acronym": "(DECCCO)"
+    }
+  }
+}

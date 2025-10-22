@@ -1,0 +1,148 @@
+{
+  "services": {
+    "title": "Layanan",
+    "headline": "kami mengerti",
+    "headline-span": "kebutuhan anda.",
+    "description": "Solusi komprehensif yang disesuaikan dengan kebutuhan bisnis Anda.",
+    "marketEntry": {
+      "title": "Strategi Masuk Pasar",
+      "description": "Memasuki pasar baru membutuhkan kejelasan strategis dan wawasan yang dapat ditindaklanjuti. ICP menerapkan pendekatan terstruktur berbasis data untuk masuk pasar, memanfaatkan kerangka kerja seperti analisis PESTEL, Porter's Five Forces, dan model 3C (Perusahaan, Pelanggan, Pesaing) untuk mengidentifikasi strategi optimal demi kesuksesan berkelanjutan. Metodologi kami mengacu pada riset pasar yang ketat, segmentasi pelanggan, dan analisis regulasi yang menjadi ciri khas firma papan atas.",
+      "overviewMethodology": [
+        "Analisis pasar untuk memahami dinamika",
+        "Evaluasi kompetitif untuk mengidentifikasi keunggulan",
+        "Penilaian risiko dan regulasi",
+        "Pemilihan mode masuk strategis"
+      ],
+      "keywords": ["Pemetaan Pasar", "Prioritas Strategis", "Pemetaan Risiko"]
+    },
+    "feasibilityStudy": {
+      "title": "Studi Kelayakan",
+      "description": "Studi kelayakan yang menyeluruh memastikan bahwa keputusan bisnis didasarkan pada analisis ketat dan validasi data. ICP menggunakan metodologi yang kuat yang menggabungkan pemodelan keuangan, analisis kelayakan pasar, dan penilaian risiko. Pendekatan ini mencerminkan praktik terbaik yang terlihat di firma penasihat Big 4, memastikan studi tersebut mencakup viabilitas ekonomi, kesiapan operasional, dan proyeksi keuangan, didukung oleh intelijen pasar real-time.",
+      "overviewMethodology": [
+        "Analisis biaya-manfaat dan peramalan keuangan",
+        "Penentuan ukuran pasar dan peramalan permintaan",
+        "Manajemen risiko dan analisis sensitivitas",
+        "Analisis pemangku kepentingan dan regulasi"
+      ],
+      "keywords": [
+        "Analisis Komersial",
+        "Evaluasi Teknis",
+        "Pemodelan Keuangan"
+      ]
+    },
+    "competitorIntelligence": {
+      "title": "Intelijen Kompetitor",
+      "description": "Mendapatkan keunggulan kompetitif memerlukan wawasan berkelanjutan tentang kekuatan, kelemahan, dan niat strategis pesaing. ICP memanfaatkan pendekatan sistematis dan komprehensif untuk intelijen kompetitor, menggabungkan kerangka kerja seperti Competitive Benchmarking, Strategi Generik Porter, dan analisis SWOT. Metodologi kami memastikan Anda tetap di depan pesaing dengan melacak tren pasar, metrik kinerja, dan disrupsi yang muncul.",
+      "overviewMethodology": [
+        "Tolok ukur kompetitif untuk perbandingan kinerja",
+        "Penilaian posisi strategis",
+        "Analisis tren untuk mengidentifikasi langkah masa depan",
+        "Analitik data untuk mengungkap wawasan tersembunyi"
+      ],
+      "keywords": [
+        "Pemrofilan Kompetitor",
+        "Dinamika Pasar",
+        "Wawasan Strategis"
+      ]
+    },
+    "businessPlan": {
+      "title": "Pengembangan Rencana Bisnis",
+      "description": "Rencana bisnis berfungsi sebagai peta jalan strategis dan proposal investasi. ICP membangun rencana bisnis menggunakan metodologi terbaik di kelasnya seperti Balanced Scorecard dan Lean Startup Framework. Kami menyelaraskan setiap rencana dengan pemodelan keuangan, evaluasi peluang pasar, dan perencanaan skenario strategis, yang mencerminkan ketelitian praktik papan atas. Pendekatan kami memastikan rencana bisnis dapat ditindaklanjuti dan menarik bagi investor.",
+      "overviewMethodology": [
+        "Penilaian peluang pasar",
+        "Pemodelan dan peramalan keuangan",
+        "Analisis kompetitif dan manajemen risiko",
+        "Persiapan kesiapan investasi"
+      ],
+      "keywords": [
+        "Model Bisnis",
+        "Peramalan Pendapatan",
+        "Peta Jalan Strategis"
+      ]
+    },
+    "corporateAction": {
+      "title": "Aksi Korporasi (M&A)",
+      "description": "Merger dan akuisisi adalah langkah strategis yang memerlukan perencanaan dan integrasi yang cermat. ICP mengikuti pendekatan metodis yang terbukti untuk M&A, berakar pada kerangka kerja seperti Daftar Periksa Uji Tuntas, Penilaian Sinergi, dan Perencanaan Integrasi. Dengan menerapkan metodologi yang ketat, kami memastikan struktur kesepakatan selaras dengan penciptaan nilai jangka panjang, meminimalkan risiko, dan memaksimalkan kesesuaian strategis.",
+      "overviewMethodology": [
+        "Uji tuntas (due diligence) di seluruh dimensi keuangan, operasional, dan strategis",
+        "Model valuasi untuk penetapan harga yang akurat dan penciptaan nilai",
+        "Evaluasi sinergi untuk mengidentifikasi peluang penghematan biaya dan peningkatan pendapatan",
+        "Perencanaan integrasi pasca-merger"
+      ],
+      "keywords": ["Uji Tuntas", "Analisis Valuasi", "Perencanaan Integrasi"]
+    },
+    "transformation": {
+      "title": "Transformasi & Strategi",
+      "description": "Transformasi bisnis lebih dari sekadar perubahan operasional — ini tentang membentuk masa depan organisasi. ICP menerapkan pendekatan holistik dan terstruktur untuk transformasi, menggunakan alat seperti lokakarya penyelarasan strategis, kerangka kerja manajemen perubahan, dan pemikiran desain inovasi untuk membimbing bisnis melalui proses transformasi yang sukses.",
+      "overviewMethodology": [
+        "Lokakarya penyelarasan strategis untuk menentukan visi dan tujuan",
+        "Kerangka kerja manajemen perubahan untuk adopsi yang efektif",
+        "Inovasi dan desain solusi untuk transformasi model bisnis",
+        "Pengukuran kinerja berkelanjutan"
+      ],
+      "keywords": [
+        "Peta Jalan Transformasi",
+        "Pembangunan Kapabilitas",
+        "Manajemen Perubahan"
+      ]
+    },
+    "operationalExcellence": {
+      "title": "Keunggulan Operasional",
+      "description": "Keunggulan operasional sangat penting untuk mencapai efisiensi dan skalabilitas. ICP menggunakan metodologi lean, optimisasi proses, dan manajemen kinerja untuk membantu organisasi mengurangi pemborosan, meningkatkan kualitas, dan mengoptimalkan pemanfaatan sumber daya. Kami fokus pada penciptaan budaya perbaikan berkelanjutan untuk memastikan efisiensi operasional yang berkelanjutan.",
+      "overviewMethodology": [
+        "Metodologi lean untuk merampingkan proses",
+        "Optimisasi proses untuk pengurangan biaya dan efisiensi",
+        "Manajemen kinerja untuk melacak perbaikan",
+        "Pemberdayaan karyawan untuk inovasi berkelanjutan"
+      ],
+      "keywords": [
+        "Optimisasi Proses",
+        "Peningkatan Efisiensi",
+        "Metrik Kinerja"
+      ]
+    },
+    "implementation": {
+      "title": "Implementasi",
+      "description": "Sebuah strategi hanya efektif jika dieksekusi dengan baik. ICP menggunakan kerangka kerja manajemen proyek untuk memastikan bahwa inisiatif strategis dilaksanakan tepat waktu dan sesuai anggaran, sekaligus mencapai tujuan bisnis. Pendekatan kami berfokus pada implementasi yang tangkas, manajemen risiko, dan keterlibatan pemangku kepentingan, memastikan eksekusi yang lancar dari perencanaan hingga pengiriman akhir.",
+      "overviewMethodology": [
+        "Manajemen proyek yang tangkas untuk fleksibilitas dan kecepatan",
+        "Strategi manajemen risiko untuk mengidentifikasi dan memitigasi masalah",
+        "Komunikasi pemangku kepentingan untuk transparansi dan penerimaan",
+        "Pelacakan kinerja untuk memastikan kemajuan menuju tujuan"
+      ],
+      "keywords": [
+        "Strategi Implementasi",
+        "Jaminan Kualitas",
+        "Dukungan Operasional"
+      ]
+    },
+    "investmentAdvisory": {
+      "title": "Penasihat Investasi",
+      "description": "Keputusan investasi harus didasarkan pada pemahaman yang jelas tentang pasar, kesesuaian strategis, dan potensi keuangan. ICP menyediakan layanan penasihat investasi yang komprehensif, menggunakan pendekatan berbasis data untuk mengevaluasi peluang investasi, pengembalian finansial, dan strategi portofolio. Kami membimbing klien dalam menyelaraskan investasi mereka dengan tujuan jangka panjang sambil mengelola risiko secara efektif.",
+      "overviewMethodology": [
+        "Analisis risiko dan pengembalian untuk kejelasan finansial",
+        "Penilaian kesesuaian strategis untuk memastikan keselarasan dengan tujuan bisnis",
+        "Penyaringan peluang investasi untuk opsi berpotensi tinggi",
+        "Perencanaan strategi keluar (exit strategy) untuk memaksimalkan pengembalian"
+      ],
+      "keywords": [
+        "Strategi Investasi",
+        "Optimisasi Portofolio",
+        "Penilaian Peluang"
+      ]
+    },
+    "learnMore": "Pelajari Selengkapnya",
+    "viewAll": "Lihat Semua Layanan"
+  },
+
+  "servicesPage": {
+    "hero": {
+      "title": "Layanan",
+      "description": "Layanan teknologi komprehensif yang dirancang untuk mempercepat transformasi bisnis Anda dan mencapai hasil yang terukur."
+    },
+    "cta": {
+      "title": "Siap Membangun Bersama Kami?",
+      "linkText": "Mari berdiskusi dengan kami"
+    }
+  }
+}

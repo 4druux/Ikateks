@@ -1,0 +1,148 @@
+{
+  "services": {
+    "title": "Services",
+    "headline": "we understand",
+    "headline-span": "your needs.",
+    "description": "Comprehensive solutions tailored to your business needs.",
+    "marketEntry": {
+      "title": "Market Entry Strategy",
+      "description": "Entering a new market requires strategic clarity and actionable insights. ICP applies a structured, data-driven approach to market entry, leveraging frameworks such as PESTEL analysis, Porter's Five Forces, and 3C's model (Company, Customer, Competitor) to identify optimal strategies for sustainable success. Our methodology draws on the rigorous market research, customer segmentation, and regulatory analysis that are the hallmark of top-tier firms.",
+      "overviewMethodology": [
+        "Market analysis for understanding dynamics",
+        "Competitive evaluation to identify advantages",
+        "Risk and regulatory assessments",
+        "Strategic entry mode selection"
+      ],
+      "keywords": ["Market Mapping", "Strategic Prioritize", "Risk Mapping"]
+    },
+    "feasibilityStudy": {
+      "title": "Feasibility Study",
+      "description": "A thorough feasibility study ensures that business decisions are grounded in rigorous analysis and data validation. ICP employs a robust methodology that combines financial modeling, market feasibility analysis, and risk assessment. This approach mirrors the best practices seen in Big 4 advisory firms, ensuring the study covers economic viability, operational readiness, and financial projections, backed by real-time market intelligence.",
+      "overviewMethodology": [
+        "Cost-benefit analysis and financial forecasting",
+        "Market sizing and demand forecasting",
+        "Risk management and sensitivity analysis",
+        "Stakeholder and regulatory analysis"
+      ],
+      "keywords": [
+        "Commercial Analysis",
+        "Technical Evaluation",
+        "Financial Modeling"
+      ]
+    },
+    "competitorIntelligence": {
+      "title": "Competitor Intelligence",
+      "description": "Gaining a competitive edge requires continuous insights into competitors' strengths, weaknesses, and strategic intentions. ICP utilizes a comprehensive, systematic approach to competitor intelligence, combining frameworks like Competitive Benchmarking, Porter’s Generic Strategies, and SWOT analysis. Our methodology ensures that you stay ahead of competitors by tracking market trends, performance metrics, and emerging disruptors.",
+      "overviewMethodology": [
+        "Competitive benchmarking for performance comparison",
+        "Strategic positioning assessment",
+        "Trend analysis to identify future moves",
+        "Data analytics to uncover hidden insights"
+      ],
+      "keywords": [
+        "Competitor Profiling",
+        "Market Dynamics",
+        "Strategic Insight"
+      ]
+    },
+    "businessPlan": {
+      "title": "Business Plan Development",
+      "description": "A business plan serves as both a strategic roadmap and an investment pitch. ICP builds business plans using best-in-class methodologies such as the Balanced Scorecard and Lean Startup Framework. We align each plan with financial modeling, market opportunity evaluation, and strategic scenario planning, reflecting the rigor of top-tier practices. Our approach ensures that the business plan is both actionable and attractive to investors.",
+      "overviewMethodology": [
+        "Market opportunity assessment",
+        "Financial modeling and forecasting",
+        "Competitive analysis and risk management",
+        "Investment readiness preparation"
+      ],
+      "keywords": ["Business Model", "Revenue Forecasting", "Strategic Roadmap"]
+    },
+    "corporateAction": {
+      "title": "Corporate Action (M&A)",
+      "description": "Mergers and acquisitions are strategic moves that require careful planning and integration. ICP follows a methodical, proven approach for M&A, rooted in frameworks like Due Diligence Checklist, Synergy Assessment, and Integration Planning. By applying the rigorous methodologies, we ensure the deal structure aligns with long-term value creation, minimizing risks and maximizing strategic fit.",
+      "overviewMethodology": [
+        "Due diligence across financial, operational, and strategic dimensions",
+        "Valuation models for accurate pricing and value creation",
+        "Synergy evaluation to identify cost-saving and revenue-enhancing opportunities",
+        "Post-merger integration planning"
+      ],
+      "keywords": [
+        "Due Diligence",
+        "Valuation Analysis",
+        "Integration Planning"
+      ]
+    },
+    "transformation": {
+      "title": "Transformation & Strategy",
+      "description": "Business transformation is about more than operational change — it’s about shaping the future of the organization. ICP applies a holistic, structured approach to transformation, using tools such as strategic alignment workshops, change management frameworks, and innovation design thinking to guide businesses through successful transformation processes.",
+      "overviewMethodology": [
+        "Strategic alignment workshops to define vision and goals",
+        "Change management frameworks for effective adoption",
+        "Innovation and solution design for business model transformation",
+        "Continuous performance measurement"
+      ],
+      "keywords": [
+        "Transformation Roadmap",
+        "Capability Building",
+        "Change Management"
+      ]
+    },
+    "operationalExcellence": {
+      "title": "Operational Excellence",
+      "description": "Operational excellence is critical to achieving efficiency and scalability. ICP uses lean methodologies, process optimization, and performance management to help organizations reduce waste, improve quality, and optimize resource utilization. We focus on creating a culture of continuous improvement to ensure sustainable operational efficiency.",
+      "overviewMethodology": [
+        "Lean methodologies to streamline processes",
+        "Process optimization for cost reduction and efficiency",
+        "Performance management to track improvements",
+        "Employee empowerment for ongoing innovation"
+      ],
+      "keywords": [
+        "Process Optimization",
+        "Efficiency Improvement",
+        "Performance Metrics"
+      ]
+    },
+    "implementation": {
+      "title": "Implementation",
+      "description": "A strategy is only as effective as its execution. ICP uses project management frameworks to ensure that strategic initiatives are executed on time and within budget, while also achieving business goals. Our approach focuses on agile implementation, risk management, and stakeholder engagement, ensuring smooth execution from planning through to final delivery.",
+      "overviewMethodology": [
+        "Agile project management for flexibility and speed",
+        "Risk management strategies to identify and mitigate issues",
+        "Stakeholder communication for transparency and buy-in",
+        "Performance tracking to ensure progress toward objectives"
+      ],
+      "keywords": [
+        "Implementation Strategy",
+        "Quality Assurance",
+        "Operational Support"
+      ]
+    },
+    "investmentAdvisory": {
+      "title": "Investment Advisory",
+      "description": "Investment decisions should be based on a clear understanding of the market, strategic fit, and financial potential. ICP provides comprehensive investment advisory services, using a data-driven approach to evaluate investment opportunities, financial returns, and portfolio strategy. We guide clients in aligning their investments with long-term goals while managing risk effectively.",
+      "overviewMethodology": [
+        "Risk and return analysis for financial clarity",
+        "Strategic fit assessment to ensure alignment with business objectives",
+        "Investment opportunity screening for high-potential options",
+        "Exit strategy planning to maximize returns"
+      ],
+      "keywords": [
+        "Investment Strategy",
+        "Portfolio Optimization",
+        "Opportunity Assessment"
+      ]
+    },
+    "learnMore": "Learn More",
+    "viewAll": "View All Services"
+  },
+
+  "servicesPage": {
+    "hero": {
+      "title": "Services",
+      "description": "Comprehensive technology services designed to accelerate your business transformation and achieve measurable results."
+    },
+    "cta": {
+      "title": "Ready to Build With Us?",
+      "linkText": "Let's discuss with us"
+    }
+  }
+}

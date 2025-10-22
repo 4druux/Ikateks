@@ -1,0 +1,52 @@
+{
+  "aboutPage": {
+    "hero": {
+      "title": "About Us",
+      "description": "ICP - Driving Excellence, Conquering Challenges, Capturing Opportunity. We are committed to being a trusted partner that propels your business to new heights."
+    },
+    "aboutOne": {
+      "title": "PT. Ikateks Citra Persada",
+      "description": [
+        "At Ikateks Citra Persada (ICP), we are committed to being a trusted partner that propels your business to new heights. With a solid team and deep expertise, we specialize in offering customized, tailored solutions designed to meet the unique needs and challenges of each client.",
+        "ICP serves a wide range of sectors, including Supply Chain, Technology, Manufacturing, Healthcare, Energy, Banking/Finance, Real Estate, Travel & Tourism, and Telecommunication, and more. Our approach is holistic, ensuring we address both the strategic and operational dimensions of your business to maximize growth and efficiency potential."
+      ],
+      "imageAlt": "office"
+    },
+    "aboutTwo": {
+      "title": "Let’s Shape Tomorrow, Today.",
+      "description": [
+        "At ICP, we are driven by a relentless focus on delivering excellence in everything we do. We don't just provide solutions we are your strategic partner in shaping the future of your business. By capturing opportunities, we help you unlock value, drive transformation, and guide you towards sustainable success.",
+        "We are dedicated to turning challenges into growth opportunities, leveraging deep industry knowledge and cutting-edge methodologies to deliver practical, actionable insights designed to create tangible results."
+      ],
+      "imageAlt": "office"
+    },
+    "expertiseList": {
+      "headline": "Our",
+      "headline-span": "Expertise",
+      "description": "Meru Solution is a leading consulting firm dedicated to helping businesses thrive in the digital age"
+    },
+    "whyMeru": {
+      "headline": "Why Choose",
+      "headline-span": "ICP",
+      "description": "Meru Solution is a leading consulting firm dedicated to helping businesses thrive in the digital age",
+      "items": {
+        "tailored": {
+          "title": "Tailored Services",
+          "description": "Every business is unique. Our solutions are specifically designed to address your company's distinctive challenges and objectives."
+        },
+        "expertise": {
+          "title": "Industry Expertise",
+          "description": "Our team’s diverse experience across key sectors ensures relevant, actionable insights that are directly aligned with your goals."
+        },
+        "impact": {
+          "title": "Relentless Pursuit of Impact",
+          "description": "We go beyond delivering quality — we aim to create lasting value, measurable results, and transformative impact for every client."
+        }
+      }
+    },
+    "tagline": {
+      "quote": "Driving Excellence, Conquering Challenges, Capturing Opportunity",
+      "acronym": "(DECCCO)"
+    }
+  }
+}
