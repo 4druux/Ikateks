@@ -53,12 +53,12 @@
       "products": [
         {
           "key": "acidDyes",
-          "name": "Pewarna Asam (Acid Dyes)",
+          "name": "Pewarna Asam",
           "description": "Pewarna anionik berkualitas tinggi yang ideal untuk mewarnai serat protein seperti wol, sutra, dan nilon. Dikenal dengan warna-warna cerah dan ketahanan luntur terhadap cahaya yang sangat baik."
         },
         {
           "key": "reactiveDyes",
-          "name": "Pewarna Reaktif (Reactive Dyes)",
+          "name": "Pewarna Reaktif",
           "description": "Membentuk ikatan kovalen yang kuat dengan serat selulosa seperti katun dan linen. Menawarkan ketahanan luntur saat dicuci yang superior dan warna-warna cemerlang."
         },
         {
@@ -84,7 +84,7 @@
       "products": [
         {
           "key": "knittedFabric",
-          "name": "Kain Rajut (Knitted Fabric)",
+          "name": "Kain Rajut ",
           "description": "Kain jersey, interlock, dan rib-knit berkualitas tinggi yang sempurna untuk pakaian. Dikenal karena elastisitas, kenyamanan, dan sirkulasi udaranya."
         }
       ]
@@ -132,7 +132,7 @@
       "products": [
         {
           "key": "nanoFiber",
-          "name": "Serat Nano (Nano Fiber)",
+          "name": "Serat Nano",
           "description": "Serat ultra-halus dengan diameter dalam rentang nanometer, menawarkan sifat luar biasa untuk filtrasi, medis, dan elektronik."
         }
       ]
@@ -178,7 +178,7 @@
         },
         {
           "key": "nonWovenFabric",
-          "name": "Kain Non-Tenun (Non woven)",
+          "name": "Kain Non-Tenun",
           "description": "Kain yang terbuat dari serat yang diikat bersama secara kimiawi atau termal. Digunakan dalam filter, perlengkapan medis, dan barang sekali pakai."
         }
       ]
@@ -199,17 +199,17 @@
         },
         {
           "key": "buckle",
-          "name": "Gesper (Buckle)",
+          "name": "Gesper",
           "description": "Gesper logam dan plastik tahan lama untuk mengencangkan tali, tersedia dalam berbagai ukuran dan gaya."
         },
         {
           "key": "zipper",
-          "name": "Ritsleting (Zipper)",
+          "name": "Ritsleting",
           "description": "Ritsleting koil, logam, dan plastik berkualitas tinggi untuk pakaian, tas, dan aplikasi industri."
         },
         {
           "key": "button",
-          "name": "Kancing (Button)",
+          "name": "Kancing",
           "description": "Berbagai macam kancing dalam berbagai bahan, ukuran, dan warna untuk disesuaikan dengan estetika desain apa pun."
         }
       ]

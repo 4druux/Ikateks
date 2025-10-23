@@ -52,7 +52,7 @@ const ProductDetail = ({
             {currentProduct.description}
           </p>
 
-          <div className="text-start mt-12">
+          <div className="text-start mt-6">
             <a
               href={waLink}
               target="_blank"
