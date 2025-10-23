@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <div className="text-left lg:text-center mb-6 md:mb-12">
-        <h1 className="roboto-medium text-4xl md:text-6xl lg:text-8xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
+        <h1 className="roboto-medium text-4xl md:text-5xl lg:text-6xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
           {t("homePage.aboutSection.headline")}{" "}
           <span className="roboto-medium text-red-900 font-extrabold">
             {t("homePage.aboutSection.headlineSpan")}

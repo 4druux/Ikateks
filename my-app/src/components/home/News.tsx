@@ -165,8 +165,8 @@ const News = ({ lenis, newsSectionRef }: NewsProps) => {
     <>
       <section ref={newsSectionRef}>
         <div className="flex gap-2 bg-red-950 px-4 sm:px-6 lg:px-8 xl:px-16 py-2">
-          <img src="/images/logo-M.png" alt="" className="w-10" />
-          <h1 className="geometos text-white font-bold tracking-wide">
+          <img src="/images/icp-white.png" alt="" className="w-10" />
+          <h1 className="geometos text-zinc-100 font-bold tracking-wide">
             {t("news.title")}
           </h1>
         </div>
@@ -225,7 +225,7 @@ const News = ({ lenis, newsSectionRef }: NewsProps) => {
                 ) : (
                   <Link
                     to="/news"
-                    className="group flex h-full w-full flex-col items-center justify-center bg-zinc-900 p-6 text-white transition-colors duration-300"
+                    className="group flex h-full w-full flex-col items-center justify-center bg-red-950 p-6 text-white transition-colors duration-300"
                   >
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 p-4 text-white md:p-6">

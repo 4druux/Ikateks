@@ -69,7 +69,7 @@ const ModalService = ({ item, onClose }: ModalProps) => {
               {item.keywords.map((keyword: string) => (
                 <span
                   key={keyword}
-                  className="rounded-full bg-navy-hover/10 px-3 py-1 text-xs font-semibold text-navy-hover"
+                  className="rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-900"
                 >
                   {keyword}
                 </span>

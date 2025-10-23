@@ -3,10 +3,12 @@ import Lenis from "lenis";
 import Hero from "../components/home/Hero";
 import News from "../components/home/News";
 import About from "../components/home/About";
+import ProductCategories from "../components/products/ProductCategories";
 import Grow from "../components/home/Grow";
-import Services from "../components/home/Services";
 import CallToAction from "../components/ui/CallToAction";
 import { useTranslation } from "react-i18next";
+import Services from "../components/services/Services";
+import Customer from "../components/home/Customer";
 
 interface HomeProps {
   lenis: Lenis | null;
@@ -31,8 +33,16 @@ const HomePage = ({ lenis }: HomeProps) => {
       <News lenis={lenis} newsSectionRef={newsSectionRef} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-16 mt-10 md:mt-16 lg:mt-20 xl:mt-24 2xl:mt-28 space-y-16 md:space-y-20 lg:space-y-24 xl:space-y-32 2xl:space-y-40">
         <About />
+        <ProductCategories
+          headlineKey="product.headline"
+          headlineSpanKey="product.headline-span"
+          descriptionKey="product.description"
+          limit={6}
+          showViewAllButton={true}
+        />
         <Grow />
-        <Services lenis={lenis} />
+        <Services lenis={lenis} limit={6} showViewAllButton={true} />
+        <Customer />
       </div>
 
       <CallToAction

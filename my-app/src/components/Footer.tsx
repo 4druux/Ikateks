@@ -19,9 +19,9 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <Link to="/" className="">
               <img
-                src="/images/logo-white.png"
+                src="/images/icp-footer.png"
                 alt="Meru logo"
-                className="h-5 lg:h-6"
+                className="h-14"
               />
             </Link>
 
@@ -101,11 +101,12 @@ const Footer = () => {
               >
                 {t("nav.about")}
               </a>
+
               <a
-                href="/news"
+                href="/products"
                 className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
               >
-                {t("nav.news")}
+                {t("nav.products")}
               </a>
               <a
                 href="/services"
@@ -113,7 +114,18 @@ const Footer = () => {
               >
                 {t("nav.services")}
               </a>
-
+              <a
+                href="/news"
+                className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
+              >
+                {t("nav.news")}
+              </a>
+              <a
+                href="/customers"
+                className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
+              >
+                {t("nav.customers")}
+              </a>
               <a
                 href="/privacy-policy"
                 className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
@@ -127,18 +139,18 @@ const Footer = () => {
                 {t("footer.headings.contact")}
               </h4>
               <a
-                href="#"
+                href="https://api.whatsapp.com/send/?phone=62882211232801&text&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
               >
-                +62
+                +62 822 1123 2801
               </a>
               <a
-                href="mailto:info@gmail.com"
+                href="mailto:admin@ikateks.com"
                 className="text-zinc-400 hover:text-white hover:underline hover:translate-x-1 transition duration-300 text-sm"
               >
-                @gmail.com
+                admin@ikateks.com
               </a>
             </div>
 
@@ -147,13 +159,13 @@ const Footer = () => {
                 {t("footer.headings.location")}
               </h4>
               <a
-                href="https://maps.app.goo.gl/vW46nUz8d9axy7rR9"
+                href="https://maps.app.goo.gl/y2mQ5rFuEFnDu9Zu9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white hover:underline text-sm not-italic"
               >
-                Jl. TB Simatupang No.5, RT.1/RW.7, Ragunan, Ps. Minggu, Kota
-                Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550
+                Jl. Vila Dago Tol No.27-28 Blok A1, Serua, Kec. Ciputat, Kota
+                Tangerang Selatan, Banten 15414
               </a>
             </div>
 
@@ -206,9 +218,9 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-center gap-6 md:gap-10">
-          <div className="border-t border-zinc-700 w-full" />
+          <div className="border-t border-zinc-800 w-full" />
 
-          <p className="text-sm text-center text-zinc-400">
+          <p className="text-sm text-center text-zinc-500">
             © {new Date().getFullYear()} Ikateks Citra Persada .{" "}
             {t("footer.copyright")}
           </p>

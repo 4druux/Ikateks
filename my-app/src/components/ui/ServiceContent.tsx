@@ -1,19 +1,13 @@
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { type TranslatedServiceItem } from "../../data/services";
 
 interface ServiceContentProps {
   services: TranslatedServiceItem[];
-  showViewAllButton?: boolean;
   onServiceClick: (item: TranslatedServiceItem) => void;
 }
 
-const ServiceContent = ({
-  services,
-  showViewAllButton = false,
-  onServiceClick,
-}: ServiceContentProps) => {
+const ServiceContent = ({ services, onServiceClick }: ServiceContentProps) => {
   const { t } = useTranslation("services");
 
   return (
@@ -54,18 +48,6 @@ const ServiceContent = ({
           );
         })}
       </div>
-
-      {showViewAllButton && (
-        <div className="text-center mt-12">
-          <Link
-            to="/services"
-            className="text-red-700 font-medium border px-4 py-3 border-red-800 hover:bg-red-800 hover:text-white transition-colors duration-300 inline-flex items-center group"
-          >
-            {t("services.viewAll")}
-            <ArrowRight className="ml-1 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
-        </div>
-      )}
     </>
   );
 };

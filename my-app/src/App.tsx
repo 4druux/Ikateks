@@ -11,8 +11,12 @@ import TitleHeader from "./components/TitleHeader";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import ProductCategoriesPage from "./pages/ProductCategoriesPage";
+import ProductCategoryDetailPage from "./pages/ProductCategoryDetailPage";
+import ProductDetailPage from "./pages/ProductDetailPage";
 import NewsPage from "./pages/NewsPage";
 import ServicesPage from "./pages/ServicesPage";
+import CustomerPage from "./pages/CustomerPage";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 import LoadingProgressBar from "./components/LoadingProgressBar";
@@ -62,11 +66,21 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage lenis={lenis} />} />
               <Route path="/about" element={<AboutPage />} />
+              <Route path="/products" element={<ProductCategoriesPage />} />
+              <Route
+                path="/products/:categorySlug"
+                element={<ProductCategoryDetailPage />}
+              />
+              <Route
+                path="/products/:categorySlug/:productSlug"
+                element={<ProductDetailPage />}
+              />
               <Route path="/news" element={<NewsPage lenis={lenis} />} />
               <Route
                 path="/services"
                 element={<ServicesPage lenis={lenis} />}
               />
+              <Route path="/customer" element={<CustomerPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             </Routes>

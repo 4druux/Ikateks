@@ -1,7 +1,7 @@
 {
   "homePage": {
     "hero": {
-      "title": "Empowering Your Digital Future",
+      "title": "Build Success Together",
       "companyName": "PT. Ikateks Citra Persada",
       "description": "ICP - Driving Excellence, Conquering Challenges, Capturing Opportunity."
     },
@@ -30,6 +30,11 @@
       "headlineSpan": "unlocked.",
       "description": "Comprehensive solutions tailored to your business needs.",
       "imageAlt": "office"
+    },
+    "customer": {
+      "headline": "Trusted By Industry",
+      "headlineSpan": "Leaders",
+      "description": "We have established over a hundred clients, helping them navigate digital transformation and achieve measurable success."
     },
     "cta": {
       "title": "Ready to Transform Your Business?",

@@ -79,24 +79,24 @@ const Navbar = () => {
       <nav
         className={`fixed w-full top-0 z-50 transition-all duration-300 ease-in-out ${
           isVisible ? "translate-y-0" : "-translate-y-full"
-        } ${isTop && !isOpen ? "bg-transparent" : "bg-white shadow-md"} ${
+        } ${isTop && !isOpen ? "bg-transparent mt-2" : "bg-white shadow-md"} ${
           isOpen
             ? "bg-white border-b border-zinc-200 shadow-none"
             : "border-none"
         }`}
       >
-        <div className="px-4 sm:px-6 lg:px-8 xl:px-16 mt-2">
-          <div className="flex justify-between items-center py-2 lg:py-4">
+        <div className="px-4 sm:px-6 lg:px-8 xl:px-16">
+          <div className="flex justify-between items-center py-2 md:py-3">
             <div className="flex-shrink-0">
               <Link to="/" className="">
                 <img
                   src={
                     isTop && !isOpen
-                      ? "/images/logo-white.png"
-                      : "/images/LOGO-2.png"
+                      ? "/images/icp-white.png"
+                      : "/images/icp.png"
                   }
                   alt="Logo"
-                  className="h-5 lg:h-6"
+                  className="h-9 pr-20"
                 />
               </Link>
             </div>

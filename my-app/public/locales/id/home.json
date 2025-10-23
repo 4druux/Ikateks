@@ -1,7 +1,7 @@
 {
   "homePage": {
     "hero": {
-      "title": "Memperkuat Masa Depan Digital Anda",
+      "title": "Membangun Kesukesan Bersama",
       "companyName": "PT. Ikateks Citra Persada",
       "description": "ICP - Mendorong Keunggulan, Menaklukkan Tantangan, Menangkap Peluang."
     },
@@ -30,6 +30,10 @@
       "headlineSpan": "terbuka.",
       "description": "Solusi komprehensif yang disesuaikan dengan kebutuhan bisnis Anda.",
       "imageAlt": "kantor"
+    },
+    "customer": {
+      "title": "Dipercaya Oleh Industri Pionir",
+      "description": "Kami telah bermitra dengan lebih dari seratus klien, membantu mereka menavigasi transformasi digital dan mencapai kesuksesan yang terukur."
     },
     "cta": {
       "title": "Siap Mentransformasi Bisnis Anda?",

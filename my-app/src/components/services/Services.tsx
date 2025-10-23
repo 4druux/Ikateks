@@ -4,19 +4,32 @@ import { AnimatePresence } from "framer-motion";
 import {
   services as staticServiceData,
   type TranslatedServiceItem,
+  type StaticServiceItem,
 } from "../../data/services";
 import ModalService from "../ui/ModalService";
 import ServiceContent from "../ui/ServiceContent";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
-const Services = ({ lenis }: { lenis: Lenis | null }) => {
+interface ServicesProps {
+  lenis: Lenis | null;
+  limit?: number;
+  showViewAllButton?: boolean;
+}
+
+const Services = ({
+  lenis,
+  limit,
+  showViewAllButton = false,
+}: ServicesProps) => {
   const { t } = useTranslation("services");
   const [selectedService, setSelectedService] =
     useState<TranslatedServiceItem | null>(null);
   const isModalOpen = !!selectedService;
 
   const translatedServices: TranslatedServiceItem[] = staticServiceData.map(
-    (item) => {
+    (item: StaticServiceItem) => {
       const translations = t(`services.${item.i18nKey}`, {
         returnObjects: true,
       }) as Omit<TranslatedServiceItem, "id" | "icon" | "i18nKey">;
@@ -27,6 +40,10 @@ const Services = ({ lenis }: { lenis: Lenis | null }) => {
       };
     }
   );
+
+  const servicesToShow = limit
+    ? translatedServices.slice(0, limit)
+    : translatedServices;
 
   const handleOpenModal = (item: TranslatedServiceItem) => {
     setSelectedService(item);
@@ -51,34 +68,44 @@ const Services = ({ lenis }: { lenis: Lenis | null }) => {
   }, [isModalOpen, lenis]);
 
   return (
-    <section className="mt-10 md:mt-16 lg:mt-20 xl:mt-24 2xl:mt-28">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-16">
-        <div className="text-left lg:text-center">
-          <h1 className="roboto-medium text-4xl md:text-6xl lg:text-8xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
-            {t("services.headline")} <br />
-            <span className="roboto-medium text-red-900 font-extrabold">
-              {t("services.headline-span")}
-            </span>
-          </h1>
-          <p className="text-2xl text-zinc-600 lg:max-w-2xl lg:mx-auto">
-            {t("services.description")}
-          </p>
-        </div>
-
-        <div className="mt-6 md:mt-12">
-          <ServiceContent
-            services={translatedServices}
-            onServiceClick={handleOpenModal}
-          />
-        </div>
-
-        <AnimatePresence>
-          {selectedService && (
-            <ModalService item={selectedService} onClose={handleCloseModal} />
-          )}
-        </AnimatePresence>
+    <div>
+      <div className="text-left lg:text-center">
+        <h1 className="roboto-medium text-4xl md:text-5xl lg:text-6xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
+          {t("services.headline")}{" "}
+          <span className="roboto-medium text-red-900 font-extrabold">
+            {t("services.headline-span")}
+          </span>
+        </h1>
+        <p className="text-2xl text-zinc-600 lg:max-w-2xl lg:mx-auto">
+          {t("services.description")}
+        </p>
       </div>
-    </section>
+
+      <div className="mt-6 md:mt-12">
+        <ServiceContent
+          services={servicesToShow}
+          onServiceClick={handleOpenModal}
+        />
+      </div>
+
+      {showViewAllButton && (
+        <div className="text-center mt-12">
+          <Link
+            to="/services"
+            className="text-red-700 font-medium border px-4 py-3 border-red-800 hover:bg-red-800 hover:text-white transition-colors duration-300 inline-flex items-center group"
+          >
+            {t("services.viewAll")}
+            <ArrowRight className="ml-1 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" />
+          </Link>
+        </div>
+      )}
+
+      <AnimatePresence>
+        {selectedService && (
+          <ModalService item={selectedService} onClose={handleCloseModal} />
+        )}
+      </AnimatePresence>
+    </div>
   );
 };
 

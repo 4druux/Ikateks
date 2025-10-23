@@ -29,7 +29,7 @@ const ContactContent = () => {
     <section className="mt-10 md:mt-16 lg:mt-20 xl:mt-24 2xl:mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-16">
         <div className="text-left lg:text-center mb-6 md:mb-12">
-          <h1 className="roboto-medium text-4xl md:text-6xl lg:text-8xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
+          <h1 className="roboto-medium text-4xl md:text-5xl lg:text-6xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
             {t("contactPage.section.headline")}{" "}
             <span className="roboto-medium text-red-900 font-extrabold">
               {t("contactPage.section.headline-span")}
@@ -53,10 +53,10 @@ const ContactContent = () => {
                     {t("contactPage.section.info.email")}
                   </h3>
                   <a
-                    href="mailto:@gmail.com"
-                    className="text-zinc-500 hover:text-zinc-700 hover:underline"
+                    href="mailto:admin@ikateks.com"
+                    className="text-zinc-600 hover:text-blue-800 hover:underline"
                   >
-                    @gmail.com
+                    admin@ikateks.com
                   </a>
                 </div>
               </div>
@@ -70,10 +70,12 @@ const ContactContent = () => {
                     {t("contactPage.section.info.phone")}
                   </h3>
                   <a
-                    href="tel+62"
-                    className="text-zinc-500 hover:text-zinc-700 hover:underline"
+                    href="https://api.whatsapp.com/send/?phone=62882211232801&text&type=phone_number&app_absent=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-zinc-600 hover:text-blue-800 hover:underline"
                   >
-                    +62
+                    +62 822 1123 2801
                   </a>
                 </div>
               </div>
@@ -87,13 +89,13 @@ const ContactContent = () => {
                     {t("contactPage.section.info.address")}
                   </h3>
                   <a
-                    href="https://maps.app.goo.gl/vW46nUz8d9axy7rR9"
+                    href="https://maps.app.goo.gl/y2mQ5rFuEFnDu9Zu9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-zinc-500 hover:text-zinc-700 hover:underline"
+                    className="text-zinc-600 hover:text-blue-800 hover:underline"
                   >
-                    Jl. TB Simatupang No.5, RT.1/RW.7, Ragunan, Ps. Minggu, Kota
-                    Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550
+                    Jl. Vila Dago Tol No.27-28 Blok A1, Serua, <br /> Kec.
+                    Ciputat, Kota Tangerang Selatan, Banten 15414
                   </a>
                 </div>
               </div>

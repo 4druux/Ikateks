@@ -7,7 +7,7 @@ const Grow = () => {
     <div>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-20">
         <div className="w-full lg:w-1/2 text-start">
-          <h1 className="roboto-medium text-4xl md:text-6xl lg:text-8xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
+          <h1 className="roboto-medium text-4xl md:text-5xl lg:text-6xl font-extrabold max-w-4xl mx-auto uppercase text-zinc-800">
             {t("homePage.growSection.headline")}{" "}
             <span className="roboto-medium text-red-900 font-extrabold">
               {t("homePage.growSection.headlineSpan")}
@@ -19,7 +19,7 @@ const Grow = () => {
         </div>
 
         <div className="relative w-full lg:w-1/2">
-          <div className="absolute inset-0 z-10 bg-zinc-900 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 rounded-lg" />
+          <div className="absolute inset-0 z-10 bg-red-950 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 rounded-lg" />
 
           <img
             className="relative z-20 w-full h-full object-cover rounded-lg"

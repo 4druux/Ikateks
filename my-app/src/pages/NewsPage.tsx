@@ -10,7 +10,7 @@ const NewsPage = ({ lenis }: { lenis: Lenis | null }) => {
   return (
     <div className="min-h-screen">
       <Hero
-        imageSrc="/images/office-2.jpg"
+        imageSrc="/images/office-1.jpg"
         title={t("newsPage.hero.title")}
         description={t("newsPage.hero.description")}
       />

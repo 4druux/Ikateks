@@ -27,7 +27,7 @@ const AboutOne = () => {
       </div>
 
       <div className="relative w-full lg:w-1/2">
-        <div className="absolute inset-0 z-10 bg-zinc-900 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 rounded-lg" />
+        <div className="absolute inset-0 z-10 bg-red-950 translate-x-2 translate-y-2 md:translate-x-4 md:translate-y-4 rounded-lg" />
         <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-t from-transparent via-transparent to-black/70 z-30 rounded-lg" />
 
         <img

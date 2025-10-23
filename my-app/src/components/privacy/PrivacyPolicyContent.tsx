@@ -108,7 +108,7 @@ const PrivacyPolicyContent = () => {
             {t("privacyPage.content.section9.contactText")}{" "}
             <a
               href={`mailto:${companyEmail}`}
-              className="text-navy hover:underline font-medium"
+              className="text-blue-700 hover:underline font-medium"
             >
               {companyEmail}
             </a>

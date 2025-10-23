@@ -83,7 +83,7 @@ const ModalNews = ({ item, allNews, onClose, onChangeItem }: ModalProps) => {
               {item.keywords.split(",").map((keyword) => (
                 <span
                   key={keyword}
-                  className="rounded-full bg-navy-hover/10 px-3 py-1 text-xs font-semibold text-navy-hover"
+                  className="rounded-full bg-red-50 px-3 py-1 text-xs font-semibold text-red-900"
                 >
                   {keyword.trim()}
                 </span>
@@ -121,7 +121,7 @@ const ModalNews = ({ item, allNews, onClose, onChangeItem }: ModalProps) => {
               onClick={() => handleItemClick(news)}
               className={`relative w-full h-80 flex-shrink-0 rounded-lg overflow-hidden shadow-md transition-all duration-300 group focus:outline-none ${
                 item.id === news.id
-                  ? "ring-4 ring-navy-hover ring-offset-2"
+                  ? "ring-4 ring-red-900 ring-offset-2"
                   : "hover:shadow-xl"
               }`}
             >
